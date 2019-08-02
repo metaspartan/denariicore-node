@@ -6,7 +6,7 @@ A Denarius full node for building applications and services with Node.js. A node
 ## Install
 
 ```bash
-npm install -g bitcore-node-denarius
+npm install -g denariicore-node
 ```
 
 ## Prerequisites
@@ -22,11 +22,11 @@ npm install -g bitcore-node-denarius
 Bitcore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Bitcore Node.
 
 ```bash
-bitcore-node-denarius create -d <denarius-data-dir> mynode
+denariicore-node create -d <denarius-data-dir> mynode
 cd mynode
-bitcore-node-denarius install <service>
-bitcore-node-denarius install https://github.com/yourname/helloworld
-bitcore-node-denarius start
+denariicore-node install <service>
+denariicore-node install https://github.com/yourname/helloworld
+denariicore-node start
 ```
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
@@ -60,7 +60,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore-node-denarius/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/bitpay/denariicore-node/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc.
 
